@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(255, 210, 137);
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  box-shadow: 10px 10px 15px rgba(37, 0, 1, 0.5);
+}
+
+h1, h2, h3, p {
+  color: rgba(89, 0, 4, 10.0);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 210, 137)
+}
+
+.main {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-card {
+  border-top: 8px solid rgba(89, 0, 4, 10.0);
+  border-right: 8px solid rgba(89, 0, 4, 10.0);
+  border-bottom: 8px solid rgba(89, 0, 4, 10.0);
+  border-left: 8px solid rgba(89, 0, 4, 10.0);
+
+  background: rgb(244, 172, 50);
+  padding: 100px 50px;
+  border-radius: 25px;
+  box-shadow: 10px 10px 20px rgba(37, 0, 1, 0.5);
+}
+
+.intro {
+  background-color: rgb(253, 229, 190);
+  font-size: 16px;
+  padding: 20px;
+  margin: 30px;
+  border-radius: 0.5px;
+  text-shadow: 5px 5px 50px rgba(37, 0, 1, 0.5);
+}
+
+.follow {
+  background-color: rgb(253, 229, 190);
+  font-size: 16px;
+  padding: 8px 20px;
+  margin: 14px;
+  border-radius: 50px;
+  display: inline-block;
+  /* text-shadow: 5px 5px 50px rgba(37, 0, 1, 0.5); */
+}
+
+.social-media-icons {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  margin-left: 12px;
+}
+
+.social-media-icons li {
+  margin-right: 12px;
+}
+
+.social-media-icons i {
+  font-size: 25px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .main {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .main {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .main {
+    width: 300px;
+  }
+}
